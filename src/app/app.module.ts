@@ -3,14 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { DxButtonModule } from 'devextreme-angular';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    DxButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
